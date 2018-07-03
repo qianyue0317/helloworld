@@ -502,8 +502,8 @@ func showFileSelect() {
 	MW := declarative.MainWindow{
 		AssignTo: &mw.MainWindow,
 		Title:    "文件选择对话框",
-		MinSize:  declarative.Size{150, 200},
-		Size:     declarative.Size{300, 400},
+		MinSize:  declarative.Size{Width: 150, Height: 200},
+		Size:     declarative.Size{Width: 300, Height: 400},
 		Layout:   declarative.VBox{},
 		Children: []declarative.Widget{
 			declarative.TextEdit{
